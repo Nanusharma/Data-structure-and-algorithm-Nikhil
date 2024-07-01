@@ -2,8 +2,8 @@ Prerequisities: Python(intermediate_1)
 
 The name of the program(.py)follow the sequnence 
 [Date_of -the-month_Leetcode_sequence_of_the_problem+Description]
-For example
-1_26_Remove_Duplicates_from_sorted_array.py
+
+For example: 1_26_Remove_Duplicates_from_sorted_array.py
 Here 1 is the date of the month 26 is the leetcode number of the problem and rest is the name and the description of the problem
 
 Here is the link for the File that contains some links to specific approaches to a problem
