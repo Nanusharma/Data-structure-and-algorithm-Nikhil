@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+# https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
 # Medium
 
 class Solution(object):
@@ -23,10 +23,5 @@ class Solution(object):
                     left = mid + 1
             return right if right >= 0 and nums[right] == target else -1
 
+
         return first(nums, target), last(nums, target)
-
-sol =Solution()
-
-nums=[5,7,7,8,8,10]
-target= 6
-print(sol.searchRange(nums,target))   
