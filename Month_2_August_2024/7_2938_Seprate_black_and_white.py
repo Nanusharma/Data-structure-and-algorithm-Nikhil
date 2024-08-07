@@ -4,7 +4,6 @@ class Solution:
         i = 0
         j =len(s)-1
         min_steps=0
-        print(s,s2)
         while i<=j:
             if s[i] =='1' and s[j]=='0':
                 min_steps+=(j-i)
