@@ -9,6 +9,7 @@ class Solution:
                 for k in range(j,len(nums)-2):
                     for l in range(k,len(nums)-1):
                         if nums[i]+nums[j]+nums[k]+nums[l] == target:
+                            array.append([i,j,k,l])
 
 obj = Solution()
 nums = [1,0,-1,0,-2,2] 
