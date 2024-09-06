@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/sum-of-digits-of-string-after-convert/?envType=daily-question&envId=2024-09-03
 class Solution:
     def getLucky(self, s: str, k: int) -> int:
         M = k
