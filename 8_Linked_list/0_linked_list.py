@@ -10,4 +10,5 @@ c = Solution(3)
 a.next = b
 b.next = c
 c.next = a #circular linked list
+print(b.data)
 print(b.next)
