@@ -15,10 +15,8 @@ for i in range(n):
         line += str(y)
     upper_part.append(line)
 
-# Print the upper part
 for line in upper_part:
     print(line)
 
-# Print the lower part (reverse of the upper part, excluding the middle line)
 for line in reversed(upper_part[:-1]):
     print(line)
