@@ -15,6 +15,7 @@ class Solution:
                 count+=hash_table[i]
         return count
 
+#  Top Solution
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
         aux = set(jewels)
