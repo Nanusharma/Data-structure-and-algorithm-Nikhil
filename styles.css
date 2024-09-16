@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.difficulty-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.difficulty-btn:hover {
+    background-color: #45a049;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.problem-btn {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.problem-btn:hover {
+    background-color: #777;
+}
+
+.code-section {
+    width: 85%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    overflow-y: auto;
+}
+
+pre {
+    background-color: #282C34;
+    color: #61DAFB;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+code {
+    white-space: pre;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .problem-btn {
+        width: auto;
+        margin: 5px;
+    }
+
+    .code-section {
+        width: 100%;
+    }
+}
