@@ -1,5 +1,9 @@
-sum =0
-for i in range(1000):
-    if i%3==0 or i%5==0:
-        sum+=i
-print(sum)
+arr = [ 1,2,3,53,5,23,4,234,3]
+l = len(arr)-1
+L = len(arr)//2
+print(f"{len(arr)}")
+for i in range(L):
+    print()
+    print(i)
+    print(l-i)
+    print()
