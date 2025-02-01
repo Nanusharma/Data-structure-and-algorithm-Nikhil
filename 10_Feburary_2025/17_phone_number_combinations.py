@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=problem-list-v2&envId=backtracking
 
-from typing import Lis
+from typing import List
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         d = digits
