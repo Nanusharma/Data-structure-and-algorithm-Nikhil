@@ -20,4 +20,5 @@ o = Solution()
 n = 3
 
 print(o.fib(n))
-        
+
+     
