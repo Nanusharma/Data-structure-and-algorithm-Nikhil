@@ -21,7 +21,3 @@ class Solution:
                 grid[i][j] = diagonals[i - j].pop(0)
 
         return grid
-
-obj = Solution()
-grid = [[1,7,3],[9,8,2],[4,5,6]]
-print(obj.sortMatrix(grid))
