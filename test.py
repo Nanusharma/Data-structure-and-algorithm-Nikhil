@@ -1,11 +1,2 @@
-nums = [1,2]
-
-hash = {}
-for i in nums:
-    if i in hash:   
-        hash[i]+=1
-    else:
-        hash[i]=1
-x = 2
-print(hash)
-print(type(hash[x]))
+nums = [[[[0,1,2],[3,4,5],[6,7,8]]],[1],[4],[4],[8]]
+print(nums[0])
