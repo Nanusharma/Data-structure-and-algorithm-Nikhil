@@ -13,10 +13,10 @@ def fxn(weight,height,age,required_Weight):
 
 
 
-weight = 98
+weight = 94
 height = 178 
 age = 21
-required_Weight = 77
+required_Weight = 72
 fxn(weight,height,age,required_Weight)
 
 # TDEE = BMR * Activity Factor

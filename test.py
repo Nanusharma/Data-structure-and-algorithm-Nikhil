@@ -1,2 +1,7 @@
-nums = [[[[0,1,2],[3,4,5],[6,7,8]]],[1],[4],[4],[8]]
-print(nums[0])
+from kaggle.api.kaggle_api_extended import KaggleApi
+
+api = KaggleApi()
+api.authenticate()
+
+# Download all output files to the current directory
+api.kernels_output('nikhil029/s5e2-backpackprediction-challange', path='.')
