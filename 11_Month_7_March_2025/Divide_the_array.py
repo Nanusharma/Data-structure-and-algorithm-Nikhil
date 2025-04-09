@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/divide-array-into-equal-pairs/?envType=daily-question&envId=2025-03-17
+from typing import List
 class Solution:
     def divideArray(self, nums: List[int]) -> bool:
         hash_map = {}
