@@ -23,4 +23,4 @@ obj = Solution()
 nums = [10,2,5,6]
 k = 100
 
-print(f"pompom.py returns: {obj.numSubarrayProductLessThanK(nums,k)}")
+print(f"py returns: {obj.numSubarrayProductLessThanK(nums,k)}")
