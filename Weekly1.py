@@ -1,18 +1,29 @@
-def fxn1(S: str) -> list:
-    count = 1
-    ar = []
-    
-    for i in range(1, len(S)):
-        if S[i] == S[i-1]:
-            count += 1
-        else:
-            ar.append([count, int(S[i-1])])
-            count = 1
-            
-    # Handle the last group
-    ar.append([count, int(S[-1])])
-    
-    return ar
+# # Zeros at the end
+# class solution():
+#     def fxn(self,x):
+#         count = 0
+#         stack = []
+#         for i in x:
+#             if i ==0:
+#                 count+=1
+#             else:
+#                 stack.append(i)
+#         for i in range(count+1):
+#             stack.append(0)
+#         return stack
 
-print(fxn1("3322251"))
-print(fxn1("1211"))
+# obj = solution()
+# x = [2,1,0,2,1,0,0,1,2,0]
+# print(obj.fxn(x))
+
+
+class solution()
+    def fxn(self,x):
+        while x:
+            a = x%2
+            x
+
+obj = solution()
+x = 5
+print(obj.fxn(x))
+
